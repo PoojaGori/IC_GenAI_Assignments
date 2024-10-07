@@ -118,7 +118,6 @@ def load_data_rnn( file_name):
             
 # Example usage:
 # Load your dataset here
-# df = pd.read_csv('your_dataset.csv')
 file_name = 'twitter_training.csv'
 df = load_data_rnn(file_name)
 df = df.dropna()
